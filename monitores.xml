@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="style.xsl" type="text/xsl"?>
+<carrefour>
+  <producto>
+    <img>https://static.carrefour.es/hd_350x_/crs/cdn_static/catalog/hd/490686_00_1.jpg</img>
+    <precio>160,18 €</precio>
+    <modelo>Monitor Philips 273V7QDSB 68,58 cm - 27&quot;</modelo>
+  </producto>
+  <producto>
+    <img>https://static.carrefour.es/hd_350x_/crs/cdn_static/catalog/hd/350260_00_1.jpg</img>
+    <precio>199 €</precio>
+    <modelo>Monitor HP 27FW 68,58 cm - 27&quot;</modelo>
+  </producto>
+  <producto>
+    <img>https://static.carrefour.es/hd_350x_/crs/cdn_static/catalog/hd/442029_00_1.jpg</img>
+    <precio>199 €</precio>
+    <modelo>Monitor Gaming Keep Out 68,58 cm - 27&quot;</modelo>
+  </producto>
+  <producto>
+    <img>https://static.carrefour.es/hd_350x_/crs/cdn_static/catalog/hd/394204_00_1.jpg</img>
+    <precio>149 €</precio>
+    <modelo>Monitor HP 24F 60,96 cm - 24&apos;&apos;</modelo>
+  </producto>
+  <producto>
+    <img>https://static.carrefour.es/hd_350x_/crs/cdn_static/catalog/hd/020629_00_1.jpg</img>
+    <precio>199 €</precio>
+    <modelo>Monitor Acer KA270HAbid 68,58 cm - 27&quot;</modelo>
+  </producto>
+  <producto>
+    <img>https://static.carrefour.es/hd_350x_/crs/cdn_static/catalog/hd/696223_00_1.jpg</img>
+    <precio>199 €</precio>
+    <modelo>Monitor Acer K242HYLHBI 60,45 cm - 23,8&quot;</modelo>
+  </producto>
+  <producto>
+    <img>https://static.carrefour.es/hd_350x_/crs/cdn_static/catalog/hd/660473_00_1.jpg</img>
+    <precio>199 €</precio>
+    <modelo>Monitor Gaming Curvo Asus 59,94 cm - 23,6&quot;</modelo>
+  </producto>
+  <producto>
+    <img>https://static.carrefour.es/hd_350x_/crs/cdn_static/catalog/hd/693667_00_1.jpg</img>
+    <precio>199 €</precio>
+    <modelo>Monitor Acer K272HLHBI 68,58 cm - 27&quot;</modelo>
+  </producto>
+</carrefour>

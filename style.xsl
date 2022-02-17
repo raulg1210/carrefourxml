@@ -31,7 +31,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <img class="logo mr-2" src="img/logocarrefour.jpg" alt=""/>
             <a class="navbar-brand" href="#"><strong>Carrefour</strong></a>
             <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"

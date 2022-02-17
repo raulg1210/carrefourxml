@@ -64,19 +64,27 @@
                     <div class="row justify-content-center mt-4">
                         <xsl:for-each select="carrefour/producto">
                             <xsl:sort select="precio" data-type="number" order="descending"/>
-                                <div class="col-md-6 col-lg-4 mb-3 d-flex">
-                                    <div class="card flex-fill">
-                                        <img class="card-img-top" src="{img}" alt=""/>
-                                        <div class="card-body">
-                                            <h4 class="card-title">
-                                                <xsl:value-of select="modelo" />
-                                            </h4>
-                                            <p class="card-text">
-                                                <xsl:value-of select="precio" />€
-                                            </p>
-                                        </div>
+                            <div class="col-md-6 col-lg-4 mb-3 d-flex">
+                                <div class="card flex-fill">
+                                    <xsl:choose>
+                                        <xsl:when test="img=''">
+                                            <img class="card-img-top" src="img/noimageperson.png" alt=""/>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <img class="card-img-top" src="{foto}" alt=""/>
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+                                    <img class="card-img-top" src="{img}" alt=""/>
+                                    <div class="card-body">
+                                        <h4 class="card-title">
+                                            <xsl:value-of select="modelo" />
+                                        </h4>
+                                        <p class="card-text">
+                                            <xsl:value-of select="precio" />€
+                                        </p>
                                     </div>
                                 </div>
+                            </div>
                         </xsl:for-each>
                     </div>
                     <h2 class="bg-dark text-light text-center py-2">S1DAW-2122</h2>

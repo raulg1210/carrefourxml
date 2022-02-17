@@ -61,7 +61,7 @@
         </nav>
     </header>
     <div class="container shadow">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center mt-4">
             <xsl:for-each select="carrefour/producto">
                 <div class="col-md-6 col-lg-4 mb-3">
                     <div class="card flex-fill">
